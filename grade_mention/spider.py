@@ -5,7 +5,8 @@ from .grade import Semester
 def login(session, username, password):
     loginurl = 'https://passport.ustc.edu.cn/login?service=https%3A%2F%2Fjw.ustc.edu.cn%2Fucas-sso%2Flogin'
     formdata = {'model': 'uplogin.jsp', 'service': 'https://jw.ustc.edu.cn/ucas-sso/login',
-                'username': username, 'password': password}
+                'username': username, 'password': password, 
+                'warn': '', 'showCode': '', 'button': ''}
     session.post(loginurl, data=formdata)
 
 
