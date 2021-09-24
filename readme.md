@@ -2,6 +2,11 @@
 
 ## 如何使用
 
+安装依赖：
+```
+pip install -r requirements.txt
+```
+
 在QQ邮箱上开启POP3/SMTP服务（见[QQ邮箱官方教程](https://service.mail.qq.com/cgi-bin/help?subtype=1&no=166&id=28)），记下SMTP授权码。
 
 修改`config.py`，填写对应项。然后运行`main.py`即可。
