@@ -1,0 +1,6 @@
+# program data
+*.json
+
+# python cache
+*.pyc
+__pycache__/
